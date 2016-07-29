@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A13910F0-853F-3B7E-0852-8BBDB1F25CB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Kino\Obscurance\Obscurance.cs" />
+     <Compile Include="Assets\Kino\Obscurance\Script\PropertyObserver.cs" />
+     <Compile Include="Assets\Klak\Extension\MaterialExtension.cs" />
+     <Compile Include="Assets\Klak\Extension\VectorMathExtension.cs" />
+     <Compile Include="Assets\Klak\Math\BasicMath.cs" />
+     <Compile Include="Assets\Klak\Math\Interpolator.cs" />
+     <Compile Include="Assets\Klak\Math\NoiseGenerator.cs" />
+     <Compile Include="Assets\Klak\Math\Perlin.cs" />
+     <Compile Include="Assets\Klak\Math\Tween.cs" />
+     <Compile Include="Assets\Klak\Math\XXHash.cs" />
+     <Compile Include="Assets\Klak\Motion\BrownianMotion.cs" />
+     <Compile Include="Assets\Klak\Motion\ConstantMotion.cs" />
+     <Compile Include="Assets\Klak\Motion\SmoothFollow.cs" />
+     <Compile Include="Assets\Klak\System\GlobalConfig.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\AxisRotation.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\ColorRamp.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\EulerRotation.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\FloatAnimation.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\FromToVector.cs" />
+     <Compile Include="Assets\Klak\Wiring\Basic\Vector.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\Delay.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\FloatFilter.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\FloatMix.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\FloatVectorMix.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\Repeat.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\RotationMix.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\Threshold.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\Toggle.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\ToggleFour.cs" />
+     <Compile Include="Assets\Klak\Wiring\Filter\VectorMix.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\AxisInput.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\ButtonInput.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\KeyInput.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\MouseButtonInput.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\MousePositionInput.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\Noise.cs" />
+     <Compile Include="Assets\Klak\Wiring\Input\Starter.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\ActiveStatusOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\AnimatorOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\ColorOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\EventOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\FloatOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\MaterialColorOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\MaterialFloatOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\MaterialVectorOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\ParticleSystemOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\RotationOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\SystemPropertyOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\TransformOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\Output\VectorOut.cs" />
+     <Compile Include="Assets\Klak\Wiring\System\NodeBase.cs" />
+     <Compile Include="Assets\Klak\Wiring\System\Patch.cs" />
+     <Compile Include="Assets\New Folder\FollowCamera.cs" />
+     <Compile Include="Assets\New Folder\WalkSpeed.cs" />
+     <Compile Include="Assets\SSAO Pro\Demo\Scripts\DemoUI.cs" />
+     <Compile Include="Assets\SSAO Pro\Demo\Scripts\RotateAround.cs" />
+     <Compile Include="Assets\SSAO Pro\Scripts\Attributes\ColorUsageAttribute.cs" />
+     <Compile Include="Assets\SSAO Pro\Scripts\Attributes\HelpURLAttribute.cs" />
+     <Compile Include="Assets\SSAO Pro\Scripts\SSAOPro.cs" />
+     <Compile Include="Assets\VRSampleScenes\Animations\Maze\intoWalk.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Common\SessionData.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleInteractiveItem.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleRenderScale.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleRotation.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleTouchpad.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\Asteroid.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\AsteroidExplosion.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\EnvironmentController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerAlignmentChecker.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerGameController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerHealthController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerLaser.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerLaserController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\FlyerMovementController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\Ring.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Flyer\UIController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Intro\IntroManager.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\AICharacterControl.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\AgentTrail.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\CameraOrbit.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\DestinationMarker.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\ExitArea.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\MazeGameController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\MazeTargetSetting.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\Player.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\SwitchButton.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Maze\Turret.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Menu\MenuAnimator.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Menu\MenuButton.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Menu\MenuItemPopout.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Menu\MenuSelectorMover.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryGun.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryScore.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\ShootingGallery\ShootingTarget.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\ShootingGallery\UIController.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\GUIArrows.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\InputWarnings.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\ObjectPool.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\PlatformDependentText.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\Reticle.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\ReturnToMainMenu.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\SelectionRadial.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\SelectionSlider.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\UIFader.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\UIMovement.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\UITint.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\VRCameraFade.cs" />
+     <Compile Include="Assets\VRSampleScenes\Scripts\Utils\VRCameraUI.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VRDeviceManager.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VREyeRaycaster.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VRFPSCounter.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VRInput.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VRInteractiveItem.cs" />
+     <Compile Include="Assets\VRStandardAssets\Scripts\VRTrackingReset.cs" />
+     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_Mask.cs" />
+     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_RandomRotate.cs" />
+     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_3\Scripts\Example_3_Mask.cs" />
+     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_4\Scripts\Example_5_Runtime.cs" />
+     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_4\Scripts\MCBlob.cs" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Diffuse Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Multiply Simple Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent 2Sided Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_Unlit.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent 2Sided Diffuse Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout 2Sided Bumped Specular.shader" />
+     <None Include="Assets\SSAO Pro\Readme.txt" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Specular.shader" />
+     <None Include="Assets\Kino\Obscurance\Shader\Obscurance.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent 2Sided Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout Simple Diffuse.shader" />
+     <None Include="Assets\SSAO Pro\Resources\SSAOPro_v2.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_5\Shader\Background_2D.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Addative Simple Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Bumped Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout 2Sided Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent Simple Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Simple Bumped Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Multiply Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Bumped Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_PBR.cginc" />
+     <None Include="Assets\VRSampleScenes\Shaders\UnlitTransparentParam.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Multiply ZWrite Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Simple Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout 2Sided Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Wire 2Sided.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Bumped Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Wire ZWrite.shader" />
+     <None Include="Assets\Kino\Obscurance\Shader\Obscurance.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Specular Improved.shader" />
+     <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent Simple Full Improved.shader" />
+     <None Include="Assets\VRSampleScenes\Shaders\UIOverlay.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent ZWrite Full Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent 2Sided Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent ZWrite Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_VertexLit.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent ZWrite Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Resources\Cutout Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent 2Sided Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Bumped Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent 2Sided Bumped Improved.shader" />
+     <None Include="Assets\SSAO Pro\Changelog.txt" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout 2Sided Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Resources\Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout 2Sided Specular.shader" />
+     <None Include="Assets\SSAO Pro\Resources\SSAOPro.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Bumped Specular Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Resources\Cutout Simple Full.shader" />
+     <None Include="Assets\VRSampleScenes\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Cutout Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent ZWrite Bumped Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent Simple Bumped Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Multiply ZWrite Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout 2Sided Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent ZWrite Diffuse Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent ZWrite Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Addative ZWrite Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Bumped Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_ForwardBase.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Bumped Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent 2Sided Full Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Projector\Projector.shader" />
+     <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Addative Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Cutout 2Sided Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent Simple Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Resources\Transparent Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Simple Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Cutout 2Sided Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Diffuse.shader" />
+     <None Include="Assets\VRSampleScenes\Shaders\SeparableAlpha.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent 2Sided Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_Shadow.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent Simple Diffuse Improved.shader" />
+     <None Include="Assets\VRSampleScenes\Fonts\LICENSE.txt" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Bumped Specular Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Resources\Transparent Simple Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Opaque.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Bumped Specular.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Bumped Specular Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent ZWrite Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Cutout Simple Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent Simple Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Specular Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout 2Sided Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Wire 2Sided.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Cutout Simple Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Transparent ZWrite Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Unlit\Addative ZWrite Full.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Specular Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\PBR\Transparent Simple Wire.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Simple Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Simple Diffuse Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\cginc\Wireframe_Core.cginc" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent 2Sided Diffuse Improved.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent ZWrite Bumped.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Transparent Wire Simple.shader" />
+     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\One Directional Light\Cutout Wire Simple.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.TheAmazingWireframeShader">
+ <HintPath>C:/Users/craftpc/Documents/Unity/walkingTest/Assets/VacuumShaders/The Amazing Wireframe Shader/Scripts/VacuumShaders.TheAmazingWireframeShader.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
