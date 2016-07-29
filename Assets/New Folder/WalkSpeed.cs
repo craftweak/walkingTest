@@ -10,21 +10,21 @@ public class WalkSpeed : MonoBehaviour {
 
 
 	Animator animator;
-	public float speed;
+	public float sp;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
-		speed = 0.5f;
+		sp = 1.0f;
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (speed < 0)
-			speed = 0;
-		if (speed > 1)
-			speed = 1;
-		animator.SetFloat ("Walk", speed);
+		if (sp < 0)
+			sp = 0;
+		if (sp > 1)
+			sp = 1;
+		animator.SetFloat ("Walk", sp);
 	}
 }

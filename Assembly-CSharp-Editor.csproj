@@ -53,6 +53,8 @@
      <Compile Include="Assets\Klak\Motion\Editor\BrownianMotionEditor.cs" />
      <Compile Include="Assets\Klak\Motion\Editor\ConstantMotionEditor.cs" />
      <Compile Include="Assets\Klak\Motion\Editor\SmoothFollowEditor.cs" />
+     <Compile Include="Assets\Klak\Osc\Editor\OscInputEditor.cs" />
+     <Compile Include="Assets\Klak\Osc\Editor\OscMonitorWindow.cs" />
      <Compile Include="Assets\Klak\System\Editor\GlobalConfigEditor.cs" />
      <Compile Include="Assets\Klak\Wiring\Editor\Basic\AxisRotationEditor.cs" />
      <Compile Include="Assets\Klak\Wiring\Editor\Basic\ColorRampEditor.cs" />

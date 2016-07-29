@@ -58,6 +58,11 @@
      <Compile Include="Assets\Klak\Motion\BrownianMotion.cs" />
      <Compile Include="Assets\Klak\Motion\ConstantMotion.cs" />
      <Compile Include="Assets\Klak\Motion\SmoothFollow.cs" />
+     <Compile Include="Assets\Klak\Osc\Internal\MessageHandler.cs" />
+     <Compile Include="Assets\Klak\Osc\Internal\OscMaster.cs" />
+     <Compile Include="Assets\Klak\Osc\Internal\OscServer.cs" />
+     <Compile Include="Assets\Klak\Osc\Internal\PacketParser.cs" />
+     <Compile Include="Assets\Klak\Osc\OscInput.cs" />
      <Compile Include="Assets\Klak\System\GlobalConfig.cs" />
      <Compile Include="Assets\Klak\Wiring\Basic\AxisRotation.cs" />
      <Compile Include="Assets\Klak\Wiring\Basic\ColorRamp.cs" />
@@ -98,6 +103,7 @@
      <Compile Include="Assets\Klak\Wiring\System\NodeBase.cs" />
      <Compile Include="Assets\Klak\Wiring\System\Patch.cs" />
      <Compile Include="Assets\New Folder\FollowCamera.cs" />
+     <Compile Include="Assets\New Folder\Scroller.cs" />
      <Compile Include="Assets\New Folder\WalkSpeed.cs" />
      <Compile Include="Assets\SSAO Pro\Demo\Scripts\DemoUI.cs" />
      <Compile Include="Assets\SSAO Pro\Demo\Scripts\RotateAround.cs" />
