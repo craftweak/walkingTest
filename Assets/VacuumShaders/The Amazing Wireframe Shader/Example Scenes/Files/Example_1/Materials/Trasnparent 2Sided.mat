@@ -7,22 +7,107 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Trasnparent 2Sided
-  m_Shader: {fileID: 4800000, guid: ecbcb6329301c9e458aeb4ede3dbe110, type: 3}
-  m_ShaderKeywords: V_WIRE_ANTIALIASING_ON WIRE_ON
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: 3001
+  m_Shader: {fileID: 4800000, guid: 264f94566bee3074bbe85afb71ba719f, type: 3}
+  m_ShaderKeywords: V_WIRE_DYNAMI_MASK_PLANE V_WIRE_LIGHT_ON V_WIRE_TRANSPARENCY_OFF
+    V_WIRE_VERTEX_COLOR_ON WIRE_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
     - first:
+        name: _AlphaTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FalloffTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 58058e9befc28e3439cb0a4cb88df40f, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ShadowTex
+      second:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _V_WIRE_IBL_Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_WIRE_NormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_WIRE_Specular_Lookup
       second:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -65,6 +150,54 @@ Material:
         name: WIRE_ON
       second: 1
     - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _V_WIRE_BumpEnumID
+      second: 0
+    - first:
         name: _V_WIRE_DynamicMaskEffectsBaseTexEnumID
       second: 0
     - first:
@@ -72,7 +205,7 @@ Material:
       second: 0
     - first:
         name: _V_WIRE_DynamicMaskEnumID
-      second: 0
+      second: 1
     - first:
         name: _V_WIRE_DynamicMaskInvert
       second: 0
@@ -87,27 +220,72 @@ Material:
       second: 0
     - first:
         name: _V_WIRE_FresnelPow
-      second: 0
+      second: 1
     - first:
         name: _V_WIRE_Fresnel_Bias
+      second: 0
+    - first:
+        name: _V_WIRE_IBLEnumID
       second: 0
     - first:
         name: _V_WIRE_IBL_Contrast
       second: 1
     - first:
+        name: _V_WIRE_IBL_Cube_Contrast
+      second: 1
+    - first:
+        name: _V_WIRE_IBL_Cube_Intensity
+      second: 1
+    - first:
         name: _V_WIRE_IBL_Intensity
       second: 1
+    - first:
+        name: _V_WIRE_IBL_Light_Strength
+      second: 0
+    - first:
+        name: _V_WIRE_IBL_Roughness
+      second: 0
+    - first:
+        name: _V_WIRE_ImprovedBlendEnumID
+      second: 0
+    - first:
+        name: _V_WIRE_IncludeLightEnumID
+      second: 1
+    - first:
+        name: _V_WIRE_ReflectionEnumID
+      second: 0
+    - first:
+        name: _V_WIRE_Reflection_Fresnel_Bias
+      second: -1
+    - first:
+        name: _V_WIRE_Reflection_Roughness
+      second: 0.3
+    - first:
+        name: _V_WIRE_Reflection_Strength
+      second: 0.5
+    - first:
+        name: _V_WIRE_RenderingOptions_ODLEnumID
+      second: 0
+    - first:
+        name: _V_WIRE_RenderingOptions_PBREnumID
+      second: 0
     - first:
         name: _V_WIRE_RenderingOptions_UnlitEnumID
       second: 0
     - first:
         name: _V_WIRE_Size
-      second: 0.042
+      second: 0.008
+    - first:
+        name: _V_WIRE_SpecularEnumID
+      second: 0
     - first:
         name: _V_WIRE_Tag
       second: 0
     - first:
         name: _V_WIRE_Title_M_Options
+      second: 0
+    - first:
+        name: _V_WIRE_Title_V_Options
       second: 0
     - first:
         name: _V_WIRE_Title_W_Options
@@ -124,19 +302,37 @@ Material:
     - first:
         name: _V_WIRE_TransparentTex_UVSet
       second: 0
+    - first:
+        name: _V_WIRE_VertexColorEnumID
+      second: 1
+    - first:
+        name: _V_WIRE_VertexLightAndAmbientID
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
     m_Colors:
     - first:
         name: V_WIRE_COLOR
       second: {r: 0.2345454, g: 0.44852942, b: 0.13192041, a: 0.6784314}
     - first:
         name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      second: {r: 0.4852941, g: 0.31758216, b: 0.31758216, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - first:
         name: _V_WIRE_Color
-      second: {r: 0.43333498, g: 0.8161765, b: 0.06601429, a: 1}
+      second: {r: 0.74264705, g: 0.32763842, b: 0.32763842, a: 1}
     - first:
         name: _V_WIRE_DynamicMaskColor
       second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _V_WIRE_MainTex_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
     - first:
         name: _V_WIRE_TransparentTex_Scroll
       second: {r: 0, g: 0, b: 0, a: 0}

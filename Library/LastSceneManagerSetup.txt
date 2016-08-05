@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/New Folder/test01.unity
+- path: Assets/Particle Playground/Examples/Example Scenes/Overflowing.unity
   isLoaded: 1
   isActive: 1
