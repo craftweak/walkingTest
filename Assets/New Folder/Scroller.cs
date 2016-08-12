@@ -3,15 +3,15 @@ using UnityEngine;
 public class Scroller : MonoBehaviour
 {
 	[SerializeField] float _speed =1;
-//	{
-//		get { return _speed; }
-//		set { _speed = value; }
-//	}
+	public float speed{
+		get { return _speed; }
+		set { _speed = value; }
+	}
 	[SerializeField] float _wrapPoint =10;
-//	{
-//		get { return _wrapPoint; }
-//		set { _wrapPoint = value; }
-//	}
+	public float wrapPoint{
+		get { return _wrapPoint; }
+		set { _wrapPoint = value; }
+	}
 
     float _position;
 
